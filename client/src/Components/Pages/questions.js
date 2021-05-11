@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button, Container, Form, Header, TextArea, Segment } from 'semantic-ui-react'
 import Nav from '../nav'
-
+import {Link} from 'react-router-dom'
 
 function Question (){
     return (
@@ -22,7 +22,7 @@ state opinion on the effects computers have on wople. Persuade the readers to ag
                     <TextArea></TextArea>
                 </Form>
                 <br></br>
-                <Button primary size = 'large'>Grade Me</Button>
+                <Button as = {Link} to = "/grade" primary size = 'large'>Get Your Grade</Button>
                
             </Container>
             

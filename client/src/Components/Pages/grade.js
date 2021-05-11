@@ -8,7 +8,7 @@ function Grade () {
             <Nav></Nav>
             <Container>
             <Segment>
-                <Header size = "huge" >Grade: 7</Header>
+                <Header size = "huge" >Grade: {Math.floor((Math.random() * 5)) + 5} </Header>
                 <p>Congratulations! Maximum Possible Score on this question is 12</p>
 
             </Segment>
